@@ -4,9 +4,19 @@ What is programing language?
 A. It is a set of instructions given to a computer to produce various outputs.
 
 What jdk contains or composed of and define each components?
+Editor: where you can write your codes
+Compiler: that takes the source codes and converts into bytecode for the machine to understand.
+JVM(java virtual machine): it translates the bytecodes and executes the program in the operating system.
+
 What is IDE?
+Integrated Development Environment
+
 What are the IDEs available in the market to support java?
+Eclipse, IntelliJ, NetBeans, Andriod Studio, BlueJ
+
 Explain the entire java life cycle.
+The source is written in and editor which is compiled by the compiler and changed into bytecodes so that the java virtual machine can
+read it and execute it in the operating system.
 what is class?
 What is object?
 What is the entry point of an application?
