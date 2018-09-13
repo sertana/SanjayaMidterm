@@ -1,67 +1,208 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. It is a set of instructions given to a computer to produce various outputs.
+
 What jdk contains or composed of and define each components?
+Editor: where you can write your codes
+Compiler: that takes the source codes and converts into bytecode for the machine to understand.
+JVM(java virtual machine): it translates the bytecodes and executes the program in the operating system.
+
 What is IDE?
+Integrated Development Environment
+
 What are the IDEs available in the market to support java?
+Eclipse, IntelliJ, NetBeans, Andriod Studio, BlueJ
+
 Explain the entire java life cycle.
+The source is written in and editor which is compiled by the compiler and changed into bytecodes so that the java virtual machine can
+read it and execute it in the operating system.
+
 what is class?
+Class is the blueprint of all objects.
+
 What is object?
+It is the instance of the class.
+
 What is the entry point of an application?
+It is where control is transferred from the operating system to a computer program so that execution can take place.
+
 Why main is static?
+It is static so that the JCM can call it without creating any instance of a class which contains the main method.
+
 Which class is the superclass of all classes?
+java.lang.object is superclass of all classes.
+
 What is difference between path and classpath variables?
+path vaiable is used to set the path for all Java executing tools.
+classpath variable is used to set the path for java classes.
+
 What is the difference between an Interface and Abstract class?
+You can only declare a method in Interface class.
+You can declare and define a method in Abstract class.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+You cannot make an Object form an Interface and Abstract class. You can extend or implement these classes to use it.
+
 what is Access Specifier?
+Access Specifier is a keyword that defines who gets access to classes and methods.
+
 What is OOP ? Define each feature of java OOP.
+OOP: object oriented programming
+Abstraction:implementation hiding
+Encapsulation:data hiding
+Inheritance: it allows you to create classes from other classes.
+Polymorphism: it is the ability of an object to take on many forms.
+
 What is Java Package and which package is imported by default?
+Package is a mechanism to divide Java code into similar groups of classes.
+java.lang package
+
 What is API? Name list of API that you have used so far.
+Application Programming Interface
+
 Does java support multiple inheritance, explain why or why not?
+Multiple inheritance is not supported in java because it causes confusion.
+
 What is method overloading and when it happens?
+Overloading happens when method have the same name but different numbers of parameters or different type of parameters.
+
 Explain exceptions in java and how to handle it.
+Exception is an event that happens during the execution of a program that disrupts the flow.
+You can introduce a try catch block or finally in the code.
+
 What is static keyword in java? How it has been used in variables and methods ?
+Static keyword ensures that the variable and functions belongs to the class and not the objects.
+
 What is final and how it has been used variables and methods?
+Final means that the variable cannot be changed and the method cannot be over-ridden.
 What is final, finally and finalize?
+Final classes cannot be inherited, final variable cannot be changed, and final methods can't be overridden.
+Finally is used to place important code which will be executed whether exception is handled or not.
+Finalize is used to perform clean up processing just before object is garbage collected.
+
 What is a constructor ?
+Its a block of code that's called when an instance of an object is created.
+
 Can we have multiple constructors in a class?
+Yes
+
 If we don't have a constructor declared, what is called during the object creation?
+A default constructor is created with no parameters.
+
 What is "this" keyword in java ?
+this keyword referes to the current object.
+
 What is "super" keyword in java? How many possible way can you use?
+super keyword refers to the parent class.
+You can use super with variables, methods, and constructors.
+
 What is JVM stand for ?
+Java Virtual Machine
+
 Is JVM platform independent?
+JVM is platform dependent.
+
 What version of java are you using?
+10.0.2
+
 What is JAR stand for ?
+Java Archive
+
 What is the difference between JDK and JVM?
+JDK is an environment to develop and execute java program.
+JVM is an interpreter that executes java program line by line.
+
 What is the difference between JVM and JRE?
+JVM is an interpreter that executes java program line by line.
+JRE is an installation packages which provides environment to only run java program.
+
 What is compile time and run time?
+Compile time is when source code is converted into bytecode(machine language).
+When an application is running it is called runtime.
+
 What is heap?
+Heap is dynamic memory allocation.
+
 How java manage it's memory?
+Java objects are located in the heap. Heap is created when JVM starts up and changes size when the application runs. When the heap is
+full, garbage collectors will clear unwanted objects making space for new objects.
+
 What is the difference between String, StringBuffer and StringBuilder?
+String is a sequence of characters that cannot be changed.
+StringBuffer represents characters that can be changed.
+StringBuiler also represents characters that can be changed.
+
 What is Singleton class?
+It allows for only one object of a class at one time.
+
 What is Serialization and Deserialization?
+Serialization converts state of an object into byte stream while deserialization conveerts byte stream to java object.
+
 when to use transient variable in java?
+If you do not want the object to be serialized.
+
 Difference between while and do..while loop?
+While loop checks the condition first before execution.
+do.while loop checks the condition after execution, so will be executed at least once.
+
 What is Enum?
+collection of constants.
+
 What is Iterator?
+Iterators allows us to retrieve elements one by one from a collection.
+
 Which one will take more memory, an int or Integer?
+interger
+
 Why is String Immutable in Java?
+for security reasons.
+
 What is constructor chaining in Java?
+calling one constructor from another constructor
+
 The difference between Serial and Parallel Garbage Collector?
+Serial: garbage collects with a single thread.
+Parallel: garbage collects with multiple threads.
 What is JIT stands for?
+Just in Time
 Explain Java Heap space and Garbage collection?
+java jeap space is an error when available heap space is exhausted.
+when heap is full garbage collection gets rid of unused objects.
+
 Can you guarantee the garbage collection process?
+It is not guaranteed.
+
 What is the difference between stack and heap in Java?
+Stack is used to store local variables and functions
+Heap is used to store objects
+
 What is reflection in java and why is it useful?
+Reflection allows to inspect classes, interfaces, fields and methods in runtime.
+
 what is multithreading in java?
+it is executing multiple sub-processes(small units).
+
 What is the use of synchronization in Java?
+It is making sure only one thread can access the resource at a given point in time.
+
 What is Framework?
+Framework are pre-written codes in Java to which you add your own code to solve a problem for specific domain.
+
 What are the testing Framework available in java?
+JUnit,Selenium, Rest Assured, TestNG, Mockito, Spock,Cucumber
+
 Difference between jUnit and testNG?
+testNG is similar to junit but has more functionalities making it more powerful.
+
 What are the dependencies for this project?
+mongoDB, mySql, testNg
 what is dependency injection in java?
+A dependency injection is where a static object provides the dependencies for other objects.
+
 What is static binding and dynamic binding?
+Static binding occurs during compile time.
+Dynamic biding occurs during runtime.
 
 
 
